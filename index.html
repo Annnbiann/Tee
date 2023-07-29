@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Bootstrap/font/bootstrap-icons.css">
+    <!--css-->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <h1>Product Details</h1>
+    </header>
+    <main>
+        <div class="product">
+            <img src="classic_tee.jpg" alt="Classic Tee">
+            <h2>Classic Tee</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="sizes">
+                <label><input type="radio" name="size" value="S"> S</label>
+                <label><input type="radio" name="size" value="M"> M</label>
+                <label><input type="radio" name="size" value="L"> L</label>
+            </div>
+            <button id="addToCartBtn">Add to Cart</button>
+            <div id="error"></div>
+        </div>
+        <div class="mini-cart">
+            <h2>Mini Cart</h2>
+            <ul id="cartItems">
+                <!-- Mini cart items will be dynamically added here -->
+            </ul>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
